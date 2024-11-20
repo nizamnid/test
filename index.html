@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <h1>Welcome to My Portfolio</h1>
+        <p>I'm a passionate designer and developer.</p>
+        <button onclick="window.location.href='#about'">Learn More</button>
+    </section>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a student at the National Institute of Design, specializing in... (your specialization)</p>
+    </section>
+
+    <section id="projects">
+        <h2>My Projects</h2>
+        <div class="project-gallery">
+            <!-- Example project item -->
+            <div class="project-item">
+                <img src="path-to-image.jpg" alt="Project Image">
+                <p>Project Title</p>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <section id="resume">
+        <h2>My Resume</h2>
+        <a href="path-to-resume.pdf" target="_blank">Download Resume</a>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2024 Your Name | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
